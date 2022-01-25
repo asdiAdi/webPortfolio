@@ -1,0 +1,55 @@
+
+
+
+body {
+  font-family: 'Roboto Slab', sans-serif !important;
+  
+}
+
+/*custom color*/
+.c-black-olive{
+  color: #423E37;
+}
+.c-maximum-yellow-red{
+  color: #E3B23C;
+}
+.c-beige{
+  color: #EDEBD7;
+}
+.c-spanish-gray{
+  color: #A39594;
+}
+.c-dim-gray{
+  color: #6E675F;
+}
+
+/*custom bg color*/
+.cbg-black-olive{
+  background-color: #423E37;
+}
+.cbg-maximum-yellow-red{
+  background-color: #E3B23C;
+}
+.cbg-beige{
+  background-color: #EDEBD7;
+}
+.cbg-spanish-gray{
+  background-color: #A39594;
+}
+.cbg-dim-gray{
+  background-color: #6E675F;
+}
+
+#home{
+  padding-top: 150px;
+  padding-bottom: 250px;
+}
+#projects{
+  padding-bottom: 250px;
+}
+#about{
+  padding-bottom: 250px;
+}
+#contact{
+  padding-bottom: 250px;
+}
