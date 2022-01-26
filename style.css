@@ -41,15 +41,23 @@ body {
 }
 
 #home{
-  padding-top: 150px;
-  padding-bottom: 250px;
+  padding-bottom: 125px;
+  padding-top: 125px;
 }
 #projects{
-  padding-bottom: 250px;
+  padding-bottom: 125px;
+  padding-top: 125px;
 }
 #about{
-  padding-bottom: 250px;
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
 #contact{
-  padding-bottom: 250px;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+
+li{
+  font-size: 2rem;
 }

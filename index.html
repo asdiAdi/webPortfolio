@@ -15,8 +15,8 @@
 	<title>Portfolio | Carl Timothy Adi</title>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark cbg-dim-gray py-2 fixed-top" id="top">
-		<a class="navbar-brand" href="#"><img src="./images/logo.png" class="img-fluid rounded-pill"></a>
+	<nav class="navbar navbar-expand-lg navbar-dark cbg-dim-gray py-1 fixed-top" id="top">
+		<a class="navbar-brand" href="#"><img src="./images/logo.png" class="img-fluid rounded-pill w-75"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -41,46 +41,63 @@
 	</nav>
 
 	<!-- Landing Page -->
-	<div id="home" class="container-fluid row">
-		<div class="col-4 m-5">
-			<h1 class="c-maximum-yellow-red"><strong>Hello!</strong></h1>
-			<h2 class="m-4 col-sm-4 col-md-8 col-lg-10">I'm Carl Timothy Adi, an aspiring web developer!</h2>
+	<section id="home" class="container-fluid px-5 col-10">
+		<div class="row">
+			<div class="col-sm-12 col-md-4 col-lg-4">
+				<h1 class="c-maximum-yellow-red"><strong>Hello!</strong></h1>
+				<h2>I'm Carl Timothy Adi, an aspiring web developer!</h2>
+			</div>
+			<div class="col-sm-12 col-md-6 col-lg-6  ml-auto mt-sm-5">
+				<img src="./images/image1.jpeg" class="img-fluid">
+			</div>
 		</div>
-		<img src="./images/image1.jpeg" class="img-fluid col-7 ml-auto">
-	</div>
+	</section>
+	
+
 	<!-- Landing Page End -->
 	
 
 	<!-- Projects -->
-	<div id="projects" class="container-fluid">
+	<section id="projects" class="container-fluid">
 		<h1 class="text-center c-maximum-yellow-red mb-5"><strong>Projects</strong></h1>
-		<div class="offset-sm-0 col-sm-12 offset-md-1 col-md-10  offset-lg-2 col-lg-8">
-			<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+		<div class="offset-sm-0 col-sm-12 offset-md-1 col-md-10  offset-lg-2 col-lg-8 align-self-center">
+			<div id="carouselExampleCaptions" class="carousel slide carousel-fade cbg-spanish-gray rounded p-4 " data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
 					<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+					<li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="https://place-puppy.com/500x300" class="d-block w-100" alt="...">
+						<img src="./images/toga.png" class="d-block h-100 mx-auto rounded-circle" alt="...">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first slide.</p>
+							<h2>BS Electronics Engineer</h3>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="http://placekitten.com/500/300" class="d-block w-100" alt="...">
+						<img src="./images/antenna1.png" class="d-block h-100 mx-auto" alt="...">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Second slide label</h5>
-							<p>Some representative placeholder content for the second slide.</p>
+							<h2>Antenna Design</h3>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="https://placebear.com/500/300" class="d-block w-100" alt="...">
+						<img src="./images/printer.jpg" class="d-block h-100 mx-auto" alt="...">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>Third slide label</h5>
-							<p>Some representative placeholder content for the third slide.</p>
+							<h2>3D Printing</h3>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./images/lowpoly.png" class="d-block h-100 mx-auto" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>3D Modeling</h3>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="./images/game.png" class="d-block h-100 mx-auto" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h2>Game Development</h3>
 						</div>
 					</div>
 				</div>
@@ -96,40 +113,76 @@
 
 		</div>
 
-	</div>
+		
+
+	</section>
+	
 	<!-- Projects End -->
 
 
 	<!-- About Me Start -->
-	<div id="about">
+	<section id="about" class="container-fluid col-10">
 		<h1 class="text-center c-maximum-yellow-red mb-5"><strong>About Me</strong></h1>
-	</div>
+		<div class="row mx-4 mt-5">
+			<div class="col-md-12 col-lg-5 mr-auto mb-sm-5">
+				<h1>I'm Timothy, I was born in Tarlac and currently living in Pampanga. This is the first website that I made, If you like it don't hesitate to reach out!</h3>
+				</div>
+				<div class="col-md-12 col-lg-5 ml-auto mt-sm-5 mt-lg-0">
+					<h2><strong>My Hobbies:</strong></h2>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">Gaming especially Yu-Gi-Oh!</li>
+						<li class="list-group-item">Watching movies</li>
+						<li class="list-group-item">Drawing badly</li>
+						<li class="list-group-item">Listening to music</li>
+						<li class="list-group-item">Learning new stuff</li>
+					</ul>
+					<h2 class="mt-5"><strong>My Links:</strong></h2>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item"><a href="https://www.linkedin.com/in/carl-timothy-adi-a73b1b1a1/" class="c-dim-gray"><em>LinkedIn</em></a></li>
+						<li class="list-group-item"><a href="https://github.com/asdiAdi" class="c-dim-gray"><em>Github</em></a></li>
+						<li class="list-group-item"><a href="https://www.facebook.com/aasdi.aadi" class="c-dim-gray"><em>Facebook</em></a></li>
+					</ul>
+				</div>
+			</div>
+	</section>
+
 	<!-- About Me End -->
 
 
 	<!-- Contact Start -->
-	<div class=" text-light min-vh-100 p-4">
-		<h1 class="text-center c-maximum-yellow-red mb-5"><strong>Contact Me</strong></h1>
-		<h3 class="container col-sm-12 col-md-6 col-xl-4 text-dark text-justify mb-5">For business inquiries and collaborations please contact me below and leave a link to your website or portfolio. I am looking forward to hearing from you!</h3>
-		<form class="container cbg-black-olive p-4 col-sm-12 col-md-6 col-xl-4  ">
-			<div class="form-group">
-				<label for="name">Name</label>
-				<input type="text" class="form-control" id="name"  required>
-			</div>
-			<div class="form-group">
-				<label for="emailAdress">Email address</label>
-				<input type="email" class="form-control" id="emailAdress"  required>
-			</div>
+	<section id="contact">
+		<div class=" text-light p-4">
+			<h1 class="text-center c-maximum-yellow-red mb-5"><strong>Contact Me</strong></h1>
+			<h3 class="container col-sm-12 col-md-9 col-xl-7 text-dark mb-5 align-self-center">For business inquiries and collaborations please contact me below and leave a link to your website or portfolio. I am looking forward to hearing from you!</h3>
+			<form class="container cbg-black-olive p-4 col-sm-12 col-md-9 col-xl-7 rounded ">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="name"  required>
+				</div>
+				<div class="form-group">
+					<label for="emailAdress">Email address</label>
+					<input type="email" class="form-control" id="emailAdress"  required>
+				</div>
 
-			<div class="form-group">
-			    <label for="message">Message</label>
-			    <textarea class="form-control" id="message" rows="6"></textarea>
-			  </div>
-			<button type="submit" class="btn btn-primary">Send Email</button>
-		</form>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<textarea class="form-control" id="message" rows="6"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Send Email</button>
+			</form>
 
-	</div>
-	<!-- Contact End -->
+		</div>
+	</section>
+
+		<!-- Contact End -->
+
+		<!-- Google Map -->
+	<!-- <div class="d-flex container-fluid text-center">
+		<h3>You can find us here</h3>
+		<div class="mapouter m-auto"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=sapa,%20sto%20nino,%20sto%20tomas,%20pampanga&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:400px;}</style><a href="https://www.embedgooglemap.net">embed google maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:400px;}</style></div></div>
+	</div> -->
+	
+	<!-- Google Map End -->
 
 	<!-- JS Dependencies -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
